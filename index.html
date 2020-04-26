@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>The Great<span id="colDisplay">RGB</span>color game</h1>
+    </header>
+    <nav>
+        <ul class="flex container">
+            <button id="reset">New Game!</button>
+            <li><span id="message">correct!</span></li>
+            <div class=" flex end">
+                <button class="game-mode selected">easy</button>
+                <button class="game-mode">hard</button>
+            </div>
+        </ul>
+    </nav>
+    <main>
+        <div class="flex wrap container board">
+        </div>
+    </main>
+
+    <!-- Include JavaScript File -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
