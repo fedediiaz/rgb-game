@@ -15,41 +15,10 @@ body {
     color: white;
 }
 
+/* Header Starts */
 header {
     text-align: center;
     background-color: #232323;
-}
-
-.container {
-    max-width: 620px;
-    margin: 0 auto;
-    width: 100%;
-    /* border: 1px solid; */
-}
-
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-}
-
-.wrap {
-    flex-wrap: wrap;
-}
-
-nav {
-    background-color: #ff4444;
-    width: 100%;
-}
-
-.square {
-    min-width: 100px;
-    min-height: 100px;
-    width: 150px;
-    height: 130px;
-    background-color: purple;
-    margin: 1.66%;
-    border-radius: 1em;
 }
 
 h1 {
@@ -59,15 +28,13 @@ h1 {
     padding: 0.7em 0;
 }
 
-#colDisplay {
-    font-weight: 500;
-    font-size: 3rem;
-    display: block;
-}
+/* Header Ends */
 
-#message {
-    color: black;
-    font-weight: bold;
+/* Navbar Starts */
+
+nav {
+    background-color: #ff4444;
+    width: 100%;
 }
 
 nav ul {
@@ -88,6 +55,54 @@ button {
     margin: 0 2px;
 }
 
+#colDisplay {
+    font-weight: 500;
+    font-size: 3rem;
+    display: block;
+}
+
+#message {
+    color: black;
+    font-weight: bold;
+}
+
+/* Navbar Ends */
+
+/* General Styles */
+.container {
+    max-width: 620px;
+    margin: 0 auto;
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+/* General Styles Ends */
+
+/* Game Board */
+
+.square {
+    min-width: 100px;
+    min-height: 100px;
+    width: 150px;
+    height: 130px;
+    background-color: purple;
+    margin: 1.66%;
+    border-radius: 1em;
+    transition: background-color 350ms ease;
+}
+
+
+
 .flex+.start {
     align-self: flex-end;
     display: inline-block;
@@ -102,10 +117,6 @@ button {
     background-color: #232323;
     color: white;
     height: 100%;
-}
-
-.hidden {
-    display: none;
 }
 
 .board {

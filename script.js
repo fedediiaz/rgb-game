@@ -126,7 +126,7 @@ function setSquaresListeners() {
 
 function removeClass(arr, className) {
     for (let i = 0; i < arr.length; i++) {
-        arr[i].classList.toggle(className);
+        arr[i].classList.remove(className);
     }
     return;
 }
