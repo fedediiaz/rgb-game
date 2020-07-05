@@ -4,6 +4,8 @@ How much do you know about RGB? Test your knoledge with this game. Check the RGB
 
 ![RGB game preview](https://github.com/inju69/RGB-game/blob/master/RGB%20game.gif)
 
+[Try in NOW](https://inju69.github.io/rgb-game/index.html)
+
 # About 
 
 This is my first project on my own. Even dough the game idea is not mine, I found it very usefull to learn RGB, coding practices, event handlers, flexbox and responsivnes and a tone of JavaScript.
