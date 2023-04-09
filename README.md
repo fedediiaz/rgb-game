@@ -4,7 +4,7 @@ How much do you know about RGB? Test your knoledge with this game. Check the RGB
 
 ![RGB game preview](https://github.com/inju69/RGB-game/blob/master/RGB%20game.gif)
 
-[Try in NOW](https://inju69.github.io/rgb-game/index.html)
+[Try in NOW](https://fedediiaz.github.io/rgb-game/)
 
 # About 
 
